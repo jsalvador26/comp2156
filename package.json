@@ -4,7 +4,7 @@
   "description": "James",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
@@ -21,11 +21,12 @@
   "bugs": {
     "url": "https://github.com/jsalvador26/comp2156/issues"
   },
-  "homepage": "https://github.com/jsalvador26/comp2156#readme", "dependencies": {
+  "homepage": "https://github.com/jsalvador26/comp2156#readme",
+  "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^5.0.1",
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
   },
@@ -38,5 +39,4 @@
     "not ie <= 11",
     "not op_mini all"
   ]
-  
 }

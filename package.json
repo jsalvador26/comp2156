@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jsalvador26/comp2156#readme",
   "dependencies": {
+    "eslint-config-react-app": "^7.0.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
